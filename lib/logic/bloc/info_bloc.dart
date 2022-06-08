@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
-import 'package:bloc1/model/state_status.dart';
-import 'package:bloc1/service/text_service.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:equatable/equatable.dart';
 import 'package:stream_transform/stream_transform.dart';
 
 import '../../model/info_model.dart';
+import '../../model/state_status.dart';
+import '../../service/text_service.dart';
 
 part 'info_event.dart';
 part 'info_state.dart';

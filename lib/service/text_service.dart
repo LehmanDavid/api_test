@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:bloc1/model/info_model.dart';
+import '../model/info_model.dart';
 import 'package:http/http.dart';
 
 class TextService {
